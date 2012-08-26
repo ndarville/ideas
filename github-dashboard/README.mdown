@@ -1,0 +1,18 @@
+Redesigned GitHub Dashboard
+===========================
+
+What Sucks
+----------
+
+1. Try telling these icons apart:
+
+    * &xf001;
+    * &xf002;
+    * &xf003;
+    * &xf004;
+    * &xf005;
+    * &xf006;
+
+    Now imagine them as white icons on purple (`##7552A1`) background.
+
+    The people at GitHub somehow thought this was a good idea.
