@@ -58,15 +58,15 @@ How to Improve It?
 -----------------
 In one line of a commit update, GitHub manages to cram:
 
-1. the name of the user whose activity you are reading anyway,
+1. the name of the user whose activity you are reading anyway, and whose identity you can ascertain by the avatar in the dashboard feed
 2. his or her action (verb),
 3. the branch name (unlinked),
-4. the repo—prepended with the link to the user whose activity you are reading anyway
+4. the repo
 5. the relative date
 
 A generic update usually looks something like this:
 
-`<user_x> <verb> <object>` + `on <user_y>/<repo> <rel_date>`
+`<user_x> <verb> <object>` + `on/at <user_y>/<repo> <rel_date>`
 
 And it’s funny, because even in the dashboard that contains even *more* information with all the avatars and what not, *the verb appears to always uniquely describe the action*. Here’s a quick recap of what has gone on in my dashboard, expressed through verbs only:
 
@@ -88,6 +88,6 @@ Is there really anything ambiguous about these? They seem like the perfect disti
 
 With a single verb, the textual information can accomplish the same thing the icons aim to do.
 
-Frankly, I would rather that each action did not have an icon, but just one simple, unique colour. And that colour be the same as a background or `font-color` for the verb describing the update. And already then would we be much better off. I would actually be able to tell a commit apart from the creation of a new repo, as trivial as it sounds. (Speaking of which, were you able to count the number of repos I created?)
+Frankly, I would rather that each action did not have an icon, but just one simple, unique coloured box—much bigger than it is now. And that the colour be the same as a background or `font-color` for the verb describing the update in the text. And already then would we be much better off. I would actually be able to tell a commit apart from the creation of a new repo, as trivial as it sounds. (Speaking of which, were you able to count the number of repos I created?)
 
 And this is not to mention all the cruft that could and should get quite the make-over. If I were to suggest something, copy the hell out of Twitter. We may take the design for granted, but it is still an amazing accomplishment that manages to cram name, handle, tweet, relative date, and more into an unobtrusive design that lets you scan the timeline effortlessly.
