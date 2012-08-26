@@ -44,7 +44,7 @@ I can’t get the entities to work right now in #1, but that's not important. Le
 
     ![Activity feed with text only](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-text.png)
 
-    WHAT THE HELL AM I SUPPOSED TO BE LOOKING AT?! *Will the madness never end?!*
+    WHAT THE HELL AM I SUPPOSED TO BE LOOKING AT?! *Will the madness ever end?!*
 
     Can anyone at GitHub say with a straight face that they have tried to wrap their minds around what information users prioritize and desire when looking through an activity feed?
 
