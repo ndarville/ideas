@@ -68,7 +68,7 @@ A generic update usually looks something like this:
 
 `<user_x> <verb> <object>` + `on <user_y>/<repo> <rel_date>`
 
-And it’s funny, because even in the dashboard that contains even *more* information with all the avatars and what not, *the verb appears to always uniquely describe the action*. Here's a quick recap of what has gone on in my dashboard, expressed through verbs only:
+And it’s funny, because even in the dashboard that contains even *more* information with all the avatars and what not, *the verb appears to always uniquely describe the action*. Here’s a quick recap of what has gone on in my dashboard, expressed through verbs only:
 
 * opened
 * closed
