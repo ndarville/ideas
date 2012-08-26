@@ -28,7 +28,7 @@ I can’t get the entities to work right now in #1, but that's not important. Le
 
 1. First, what it looks like in full:
 
-    ![Full user activity feed](images/user-activity-full.png)
+    ![Full user activity feed](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-full.png)
 
     Already horrible, isn’t it?
 
@@ -36,13 +36,13 @@ I can’t get the entities to work right now in #1, but that's not important. Le
 
 2. Let us hit this point home by only displaying the icons in my activity feed this time:
 
-    ![Activity feed with icons only](images/user-activity-icons.png)
+    ![Activity feed with icons only](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-icons.png)
 
     You can tell without a problem that I started following someone, but God help you, if you want to see what else I have been up to lately. But it is not like the typographical formatting of the textual information is helpful either.
 
 3. Ignore the icons for now. Maybe I am scanning my feed the wrong way. What does it look like if we only use the textual information to quickly ascertain my recent acitivity:
 
-    ![Activity feed with text only](images/user-activity-icons.png)
+    ![Activity feed with text only](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-icons.png)
 
     WHAT THE HELL AM I SUPPOSED TO BE LOOKING AT?! *Will the madness never end?!*
 
