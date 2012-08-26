@@ -42,7 +42,7 @@ I can’t get the entities to work right now in #1, but that's not important. Le
 
 3. Ignore the icons for now. Maybe I am scanning my feed the wrong way. What does it look like if we only use the textual information to quickly ascertain my recent acitivity:
 
-    ![Activity feed with text only](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-icons.png)
+    ![Activity feed with text only](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-text.png)
 
     WHAT THE HELL AM I SUPPOSED TO BE LOOKING AT?! *Will the madness never end?!*
 
