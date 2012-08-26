@@ -6,3 +6,4 @@ Ideas
 * getlicense
 * healthy-pony
 * promethease.css
+* redesigned GitHub dashboard
