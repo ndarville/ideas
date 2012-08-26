@@ -1,6 +1,14 @@
 Redesigned GitHub Dashboard
 ===========================
 
+Links
+-----
+
+* https://github.com/blog/1135-the-making-of-octicons
+* https://github.com/styleguide/css/7.0
+* https://github.com/ndarville
+* https://github.com/
+
 What Sucks
 ----------
 
