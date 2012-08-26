@@ -31,13 +31,15 @@ I can’t get the entities to work right now in #1, but that's not important. Le
 
     Already horrible, isn’t it?
 
-    Pop quiz! Tell me the number of times a new repo was created by me in the displayed period of time. Exactly. Why must a commit look so similar to the creation of a new repo?!
+    Pop quiz! Tell me the number of times a new repo was created by me in the displayed period of time.
+
+    Exactly. Why must a commit look so similar to the creation of a new repo?!
 
 2. Let us hit this point home by only displaying the icons in my activity feed this time:
 
     ![Activity feed with icons only](https://raw.github.com/ndarville/ideas/master/github-dashboard/images/user-activity-icons.png)
 
-    You can tell without a problem that I started following someone, but God help you, if you want to see what else I have been up to lately. But it is not like the typographical formatting of the textual information is helpful either.
+    You can tell without a problem that I started following someone—although you have to squint a little to see what the icon actually shows—but God help you, if you want to see what else I have been up to lately. Maybe the like the typographical formatting of the textual information may be of help here, but alas.
 
 3. Ignore the icons for now. Maybe I am scanning my feed the wrong way. What does it look like if we only use the textual information to quickly ascertain my recent acitivity:
 
@@ -45,23 +47,27 @@ I can’t get the entities to work right now in #1, but that's not important. Le
 
     WHAT THE HELL AM I SUPPOSED TO BE LOOKING AT?! *Will the madness ever end?!*
 
-    Can anyone at GitHub say with a straight face that they have tried to wrap their minds around what information users prioritize and desire when looking through an activity feed?
+    Can anyone at GitHub say with a straight face that they have tried to wrap their minds around what information users prioritize and desire when looking through an activity feed? I can only imagine that their dogfooding involves using their API to display the information through something humane like one of those services 37signals provide.
 
-    This being my feed, does the first piece of textual information—for people reading from left to right—really need to be my name? I mean really?
+    This being my feed, does the first piece of textual information really need to be my name? I mean, that should be implied in most cases.
   
-    And what’s with the SHA string in the bottom left? I, being the ignoramus that I am, do not have a photographic memory of what my commit SHAs map to, and even if I did, there is way to scan them quickly; one way to do so would be to generate a background colour for them computed with their SHA. I am sure this must be of some use to some people, but even they must hate the feed design. And for those of us who *don’t* use the SHA, it *completely disrupts the **one** most important thing in commit updates: the friggin’ commit message!*
+    And what’s with the SHA string in the bottom left? I, being the ignoramus that I am, do not have a photographic memory of what my commit SHAs map to, and even if I did, there is no way to scan them quickly; one way to do so would be to generate a background colour for them computed with their SHA. I am sure this must be of some use to some people, but even they must hate the feed design. And for those of us who *don’t* use the SHA, it *completely disrupts the one most important thing in commit updates: the commit message.*
 
-    And disregarding the horrid presentation of text, what are the visual cues that let us tell a commit update apart from a new repo or a new “follow”?
+    Disregarding the horrid presentation of text, what are the visual cues that let us tell a commit update apart from a new repo or a new “follow”?
 
 How to Improve It?
 -----------------
-In one line of a commit update, GitHub manages to cram:
+Take on of the example commit updates:
 
-1. the name of the user whose activity you are reading anyway, and whose identity you can ascertain by the avatar in the dashboard feed
+>[ndarville](https://github.com/ndarville) pushed to master at [ndarville/ideas](https://github.com/ndarville/ideas) 2 hours ago
+
+In one line of a commit update, GitHub manages to cram these pieces of information:
+
+1. name of the user whose activity you are reading anyway, and whose identity you can ascertain by the avatar in the dashboard feed
 2. his or her action (verb),
-3. the branch name (unlinked),
-4. the repo
-5. the relative date
+3. branch name (unlinked),
+4. repo
+5. relative date
 
 A generic update usually looks something like this:
 
@@ -85,8 +91,8 @@ Is there really anything ambiguous about these? They seem like the perfect disti
 * branch merges
 * comments
 
-With a single verb, the textual information can accomplish the same thing the icons aim to do.
+With a single verb, the textual information can accomplish the same thing the icons aim to do—with the proper emphasis.
 
-Frankly, I would rather that each action did not have an icon, but just one simple, unique coloured box—much bigger than it is now. And that the colour be the same as a background or `font-color` for the verb describing the update in the text. And already then would we be much better off. I would actually be able to tell a commit apart from the creation of a new repo, as trivial as it sounds. (Speaking of which, were you able to count the number of repos I created?)
+Frankly, I would rather that each action did not have an icon, but just one simple, unique coloured box—much bigger than it is now. And that the colour be the same as a `background-color` or `font-color` for the verb describing the update in the text. Already then would we be much better off. I would actually be able to tell a commit apart from the creation of a new repo, as trivial as it sounds. (Speaking of which, were you able to count the number of repos I created?)
 
 And this is not to mention all the cruft that could and should get quite the make-over. If I were to suggest something, copy the hell out of Twitter. We may take the design for granted, but it is still an amazing accomplishment that manages to cram name, handle, tweet, relative date, and more into an unobtrusive design that lets you scan the timeline effortlessly.
