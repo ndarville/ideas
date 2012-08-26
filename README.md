@@ -1,4 +1,8 @@
-idead
+Ideas
 =====
 
-Different ideas collated into one repo.
+* picr
+* scocial
+* getlicense
+* healthy-pony
+* promethease.css
