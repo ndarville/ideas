@@ -1,0 +1,30 @@
+Works On
+========
+JS/HTML/CSS code which returns a checklist of which browsers (IE, Opera, Chrome, Firefox, Safari) a project works on.
+
+Browser*| Works | Works Mostly
+:-------|:-----:|:-----------:
+Chrome  |   Y   |
+Safari  |   Y   |
+Firefox |   N   |     Y
+Opera   |   N   |     Y
+
+**\*** *Latest version.*
+
+   IE   | Works | Works Mostly
+:-------|:-----:|:-----------:
+IE10    |   N   |     Y
+IE9     |   N   |     Y
+IE8     |   N   |     N
+IE7     |   N   |     N
+IE6     |   N   |     N
+
+Should `WM` have a value, if `Works == True`?
+
+Optional Features
+-----------------
+1. Embed, an HTML element that detects the browser and tells whether the code works or not
+    * Green: works 100%
+    * Orange: works mostly
+    * Red: does not work
+2. Include IE compatibility in results

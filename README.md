@@ -7,3 +7,4 @@ Ideas
 * healthy-pony
 * promethease.css
 * redesigned GitHub dashboard
+* works-on: embeddable checklist of compatible browsers
